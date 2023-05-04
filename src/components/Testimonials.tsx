@@ -22,6 +22,24 @@ const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [intervalId, setIntervalId] = useState<number>();
 
+  const handleTouchStart = (event: React.TouchEvent<HTMLDivElement>) => {
+    setTouchStartX(event.touches[0].clientX);
+  };
+
+  const handleTouchMove = (event: React.TouchEvent<HTMLDivElement>) => {
+    const touchCurrentX = event.touches[0].clientX;
+    const touchDeltaX = (touchStartX ?? touchCurrentX) - touchCurrentX;
+
+    if (touchDeltaX > 0) {
+      prevSlide();
+    } else if (touchDeltaX < 0) {
+      nextSlide();
+    }
+  };
+
+  const handleTouchEnd = () => {
+    setTouchStartX(null);
+  };
   const nextSlide = () => {
     setCurrentIndex((currentIndex + 1) % datas.length);
   };
