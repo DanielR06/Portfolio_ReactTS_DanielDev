@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import Slider from "./Slider/Slider";
 
 const datas = [
   {
@@ -19,53 +19,21 @@ const datas = [
 ]
 
 const Testimonials = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [intervalId, setIntervalId] = useState<number>();
-
-  const nextSlide = () => {
-    setCurrentIndex((currentIndex + 1) % datas.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((currentIndex + datas.length - 1) % datas.length);
-  };
-  const startAutoPlay = () => {
-    const id = window.setInterval(() => {
-      nextSlide();
-    }, 5000);
-    setIntervalId(id);
-  };
-
-  const stopAutoPlay = () => {
-    window.clearInterval(intervalId);
-    setIntervalId(undefined);
-  };
-
-  useEffect(() => {
-    startAutoPlay();
-    return () => {
-      stopAutoPlay();
-    };
-  }, [currentIndex]);
   return (
     <section className="m-5">
         <h5>Críticas de colegas</h5>
         <h2>Testimonios</h2>
-        <div className="slider">
-        <div className="slider-items" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
-        {datas.map(({ avatar, name, review }, index)=>{
-                return <div className="slider-item">
-                    <div key={index}>
-                      <img src={avatar} alt="avatar" />
-                    </div>
-                    <h4>{name}</h4>
-                    <p>{review}</p>
-                    <a href="">Perfil</a>
-                </div>})}                    
-        </div>
-        <button className="slider-prev" onClick={prevSlide}>Prev</button>
-        <button className="slider-next" onClick={nextSlide}>Next</button>
-      </div>
+        <Slider arraySlides={datas}>
+          {datas.map(({ avatar, name, review }, index)=>{
+            return <div className="slider-item">
+            <div key={index}>
+              <img src={avatar} alt="avatar" />
+            </div>
+            <h4>{name}</h4>
+            <p>{review}</p>
+            <a href="">Perfil</a>
+          </div>})}    
+        </Slider>
     </section>
   )
 }
