@@ -1,9 +1,8 @@
-# Template React-Typescript
-Template para comenzar un proyecto de React-Typescript servido con Vite y con las siguientes dependecias ya configuradas: 
+# React-Typescript Portfolio
+Portfolio React-Typescript servido con Vite y con las siguientes dependecias ya configuradas: 
 - ESLint
 - Prettier
 - Tailwind
-- Axios
 
 ## Como usar la template
 

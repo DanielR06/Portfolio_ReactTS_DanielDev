@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const datas = [
   {
@@ -21,6 +21,7 @@ const datas = [
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
+  const [intervalId, setIntervalId] = useState<number>();
 
   const handleTouchStart = (event: React.TouchEvent<HTMLDivElement>) => {
     setTouchStartX(event.touches[0].clientX);
@@ -47,6 +48,24 @@ const Testimonials = () => {
   const prevSlide = () => {
     setCurrentIndex((currentIndex + datas.length - 1) % datas.length);
   };
+  const startAutoPlay = () => {
+    const id = window.setInterval(() => {
+      nextSlide();
+    }, 5000);
+    setIntervalId(id);
+  };
+
+  const stopAutoPlay = () => {
+    window.clearInterval(intervalId);
+    setIntervalId(undefined);
+  };
+
+  useEffect(() => {
+    startAutoPlay();
+    return () => {
+      stopAutoPlay();
+    };
+  }, [currentIndex]);
   return (
     <section className="m-5">
         <h5>Críticas de colegas</h5>
