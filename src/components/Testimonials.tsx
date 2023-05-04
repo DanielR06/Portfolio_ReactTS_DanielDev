@@ -25,6 +25,7 @@ const Testimonials = () => {
 
   const handleTouchStart = (event: React.TouchEvent<HTMLDivElement>) => {
     setTouchStartX(event.touches[0].clientX);
+    stopAutoPlay();
   };
 
   const handleTouchMove = (event: React.TouchEvent<HTMLDivElement>) => {
@@ -40,6 +41,7 @@ const Testimonials = () => {
 
   const handleTouchEnd = () => {
     setTouchStartX(null);
+    startAutoPlay();
   };
   const nextSlide = () => {
     setCurrentIndex((currentIndex + 1) % datas.length);
