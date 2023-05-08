@@ -1,15 +1,16 @@
-import Header from "./components/Header"
-import About from "./components/About"
-import Experience from "./components/Experience"
-import Projects from "./components/Projects"
-import Testimonials from "./components/Testimonials"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+import Header from './components/Header/Header';
+import About from './components/About/About';
+import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
+import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
 function App() {
-
   return (
     <div className="Portafolio">
-      <Header/>
+      <Navbar />
+      <Header />
       <About />
       <Experience />
       <Projects />
@@ -17,7 +18,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

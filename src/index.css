@@ -6,7 +6,7 @@
     --ligthbluesoft: rgba(40, 81, 243, 0.188);
     --bg-variante:rgb(3, 22, 82);
   }
-body {
+/* body {
     font-family: 'Lato', sans-serif;
     background: radial-gradient(var(--ligthbluesoft) 33%,transparent 33%);
     background-size: 5px 5px;
@@ -32,7 +32,8 @@ body {
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
 }
-/* Tamaños en Desktop */
+
+
 h1{
     font-size: 2.5rem;
     margin: 1vh 0;
@@ -45,7 +46,8 @@ h2{
     color: var(--ligthblue);
     font-size:2rem ;
 }
-/* Estilos de Home  */
+
+
 #Home{
     height: 100vh;
 }
@@ -95,7 +97,8 @@ h2{
     height: 100%;
     object-fit: cover;
 }
-/* Css AboutMe */
+
+
 .aboutme{
     height: 100vh;
 }
@@ -153,7 +156,9 @@ h2{
     margin: 2rem 0;
     height:auto;
 }
-/* Css Skills */
+
+
+
 .experience{
     height: 100vh;
 }
@@ -183,7 +188,10 @@ h2{
 .skill>div>h4{
     font-weight: 700;
 }
-/* Css Portafolio */
+
+
+
+
 .title_experience{
     margin-bottom: 2rem;
 }
@@ -215,7 +223,9 @@ h2{
     gap: 1rem;
 }
 
-/* Testimonials css */
+
+
+
 .slider {
     width: 100%;
     overflow: hidden;
@@ -256,4 +266,4 @@ h2{
   
   .slider-next {
     right: 0;
-  }
+  } */
