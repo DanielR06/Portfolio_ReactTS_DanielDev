@@ -1,4 +1,4 @@
-
+import './Slider.css'
 import { useEffect, useState } from "react";
 
 const Slider = ({ arraySlides, children}) => {

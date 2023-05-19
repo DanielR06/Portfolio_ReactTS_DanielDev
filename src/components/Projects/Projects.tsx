@@ -94,7 +94,7 @@ const Projects = () => {
               <a href="" className="btn_ligthblue border_r">Live Demo</a>
             </div>
           </div>
-          
+          <p> En mi portafolio, podrás encontrar algunos de mis trabajos más recientes y ver cómo he aplicado mis habilidades y conocimientos ¡Espero que disfrutes explorar mi trabajo tanto como yo disfruté </p>
         </article>
       </section>
   )

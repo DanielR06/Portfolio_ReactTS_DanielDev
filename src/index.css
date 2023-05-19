@@ -2,10 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-    --ligthblue: rgb(26, 77, 244);
+    --theme-ligth-bg:rgb(255, 255, 255);
+    --theme-ligth-dt:rgb(32, 32, 32);
+    --ligthblue: rgb(66, 92, 177);
     --ligthbluesoft: rgba(40, 81, 243, 0.188);
     --bg-variante:rgb(3, 22, 82);
   }
+body {
+    font-family: 'Lato', sans-serif;
+    background: var(--theme-ligth-bg);
+    
+    color:var(--theme-ligth-dt);
+    /* background: radial-gradient(var(--ligthbluesoft) 33%,transparent 50%); */
+    /* background-size: 100%; */
+    background-color: #fff;
+  background-image: linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+h1{
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
+.padding{
+    padding: 1em;
+}
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+
+    }
+
+}
+@media screen and (min-width:768px){
+    body {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:992px){
+    body {
+        font-size: 20px;
+    }
+}
 /* body {
     font-family: 'Lato', sans-serif;
     background: radial-gradient(var(--ligthbluesoft) 33%,transparent 33%);
@@ -226,44 +269,4 @@ h2{
 
 
 
-.slider {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .slider-items {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .slider-item {
-    flex: 0 0 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .slider-item img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .slider-prev, .slider-next {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    
-}
-  
-  .slider-prev {
-    left: 0;
-  }
-  
-  .slider-next {
-    right: 0;
-  } */
+*/

@@ -1,0 +1,25 @@
+#experience{
+    margin: 0 2em;
+}
+.experience_title{
+    border: 0.7em solid var(--theme-ligth-dt);
+    border-bottom: none;
+    background-color: var(--ligthblue);
+    text-align: center;
+}
+.container_skills{
+    border: 0.7em solid var(--theme-ligth-dt);
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ligthblue);
+    width: auto;
+}
+@media screen and (min-width:601px){
+    .experience_title{
+        width: 68%;
+        margin-left: auto;
+    }
+}

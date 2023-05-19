@@ -1,4 +1,4 @@
-import Header from './components/Header/Header';
+import Home from './components/Home/Home';
 import About from './components/About/About';
 import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
@@ -10,13 +10,14 @@ function App() {
   return (
     <div className="Portafolio">
       <Navbar />
-      <Header />
+      <Home />
+      <div className='line'></div>
       <About />
       <Experience />
-      <Projects />
+      {/* <Projects />
       <Testimonials />
       <Contact />
-      <Footer />
+      <Footer />  */}
     </div>
   );
 }
