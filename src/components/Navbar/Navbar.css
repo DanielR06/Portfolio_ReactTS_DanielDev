@@ -11,14 +11,14 @@
         justify-content: space-between;
         align-items: center;
     }
-    .burger_button{
+    .button_menu{
         font-size: 24px;
     }
     .menu{
         display: none;
     }
     .menu_visible{
-        background-color: rgba(170, 170, 170, 0.952);
+        background-color: var(--theme-ligth-bg);
         position: fixed;
         top: 0px;
         right: 0px;
@@ -30,15 +30,16 @@
         align-items: center;
         gap: 4em;
     }
-    .desactivateButton{
+    .desactivate_button{
+        font-size: 2.5em;
         transition: transform 0.3s ease-in-out;
     }
-    .desactivateButton:hover{
-        transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
+    .desactivate_button:hover{
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
 }
     .sections{
         display: flex;

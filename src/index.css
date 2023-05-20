@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-    --theme-ligth-bg:rgb(255, 255, 255);
-    --theme-ligth-dt:rgb(32, 32, 32);
+    --theme-ligth-bg:rgb(0, 0, 0);
+    --theme-ligth-dt:rgb(255, 255, 255);
     --ligthblue: rgb(66, 92, 177);
     --ligthbluesoft: rgba(40, 81, 243, 0.188);
     --bg-variante:rgb(3, 22, 82);
@@ -16,8 +16,8 @@ body {
     color:var(--theme-ligth-dt);
     /* background: radial-gradient(var(--ligthbluesoft) 33%,transparent 50%); */
     /* background-size: 100%; */
-    background-color: #fff;
-  background-image: linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px);
+    background-color: var(--theme-ligth-bg);
+  background-image: linear-gradient(var(--theme-ligth-dt) 1px, transparent 1px), linear-gradient(90deg, var(--theme-ligth-dt) 1px, transparent 1px);
   background-size: 20px 20px;
 }
 h1{
