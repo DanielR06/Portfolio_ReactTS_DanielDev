@@ -1,5 +1,9 @@
 .nav_bar{
     background-color: var(--theme-ligth-bg);
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
 }
 @media screen and (max-width:991px){
     .nav_bar{
