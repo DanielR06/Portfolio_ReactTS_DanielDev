@@ -3,11 +3,11 @@ import './About.css'
 const About = () => {
   return (
     <section id='aboutme'>
-        <div className='container_aboutme padding'>
+        <div className='container_aboutme'>
           <article className='aboutme_title padding'>
             <h2>Sobre mi</h2>
           </article>
-          <article className='aboutme_information'>
+          <article className='aboutme_information padding'>
 
             <div>
               <i className='bx bx-certification bx-tada icon-aboutme' ></i>
