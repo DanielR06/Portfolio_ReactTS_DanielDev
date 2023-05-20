@@ -1,7 +1,7 @@
 import './Slider.css'
 import { useEffect, useState } from "react";
 
-const Slider = () => {
+const Slider = ({ arraySlides, children}:any) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [intervalId, setIntervalId] = useState<number>();
   
