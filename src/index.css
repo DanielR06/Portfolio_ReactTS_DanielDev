@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
     --theme-ligth-bg:rgb(255, 255, 255);
     --theme-ligth-dt:rgb(32, 32, 32);
