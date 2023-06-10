@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-    --theme-ligth-bg:rgb(0, 0, 0);
-    --theme-ligth-dt:rgb(255, 255, 255);
-    --ligthblue: rgb(66, 92, 177);
+    --theme-ligth-bg:#000;
+    --theme-ligth-dt:#fff;
+    --ligthblue: #19A7CE;
     --ligthbluesoft: rgba(40, 81, 243, 0.188);
     --bg-variante:rgb(3, 22, 82);
   }

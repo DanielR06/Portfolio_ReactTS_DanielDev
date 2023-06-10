@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Experience from './components/Experience/Experience';
@@ -7,9 +8,26 @@ import Experience from './components/Experience/Experience';
 // import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 function App() {
+  const [theme, setTheme] = useState('dark');
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme);
+  };
+
+  useEffect(() => {
+    const root = document.documentElement;
+    if (theme === 'dark') {
+      root.style.setProperty('--theme-ligth-bg', '#000');
+      root.style.setProperty('--theme-ligth-dt', '#fff');
+    } else if (theme === 'light') {
+      root.style.setProperty('--theme-ligth-bg', '#fff');
+      root.style.setProperty('--theme-ligth-dt', '#000');
+    }
+  }, [theme]);
   return (
     <div className="Portafolio">
-      <Navbar />
+      <Navbar toggleTheme={toggleTheme}/>
       <Home />
       <div className='line'></div>
       <About />

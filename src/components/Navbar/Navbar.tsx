@@ -1,10 +1,23 @@
 import { useState } from 'react'
 import './Navbar.css'
-const Navbar = () => {
+
+interface NavbarProps {
+  toggleTheme: () => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ toggleTheme }) => {
   const [menu, setMenu] = useState(false)
+  const [icon, setIcon] = useState(true);
   
   const toogleMenu = () => {
     setMenu(!menu)
+  }
+  const changeIcon = () => {
+    setIcon(!icon);
+  };
+  const handleClick = () => {
+    changeIcon();
+    toggleTheme();
   }
   return (
     <nav className='nav_bar padding'>
@@ -18,6 +31,9 @@ const Navbar = () => {
               <li><a href="#projects">PROJECTS</a></li>
               <li><a href="#testimonials">TESTIMONIALS</a></li>
               <li><a href="#contact">CONTACT</a></li>
+              <button onClick={handleClick}>
+                {icon ? <i className='bx bxs-sun'></i> : <i className='bx bxs-moon'></i>}
+              </button>
           </ul>
         </div>
     </nav>
