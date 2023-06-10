@@ -43,7 +43,7 @@ const Experience = () => {
                 <p>Express</p>
               </div>
               <div className="skill">
-                <i className='bx bxs-badge-check' ></i>
+                <i className='bx bxl-mongodb'></i>
                 <p>MongoDB</p>
               </div>
               <div className="skill">
