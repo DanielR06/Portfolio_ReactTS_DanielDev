@@ -10,28 +10,62 @@ const Experience = () => {
             <h3>Frontend Development</h3>
             <div className="skills">
               <div className="skill">
-                <i className='bx bxs-badge-check' ></i>
+                <i className='bx bxl-html5' ></i>
                 <p>Html</p>
               </div>
               <div className="skill">
-                <i className='bx bxs-badge-check' ></i>
+                <i className='bx bxl-css3' ></i>
                 <p>Css</p>
               </div>
               <div className="skill">
-                <i className='bx bxs-badge-check' ></i>
+                <i className='bx bxl-javascript'></i>
                 <p>Javascript</p>
               </div>
               <div className="skill">
-                <i className='bx bxs-badge-check' ></i>
+                <i className='bx bxl-tailwind-css' ></i>
                 <p>Tailwind</p>
               </div>
               <div className="skill">
-                <i className='bx bxs-badge-check' ></i>
+                <i className='bx bxl-react' ></i>
                 <p>React</p>
+              </div>
+            </div>
+          </div>
+          <div className='stack'>
+            <h3>Backend Development</h3>
+            <div className="skills">
+              <div className="skill">
+                <i className='bx bxl-nodejs' ></i>
+                <p>NodeJs</p>
               </div>
               <div className="skill">
                 <i className='bx bxs-badge-check' ></i>
-                <p>Redux</p>
+                <p>Express</p>
+              </div>
+              <div className="skill">
+                <i className='bx bxs-badge-check' ></i>
+                <p>MongoDB</p>
+              </div>
+              <div className="skill">
+                <i className='bx bxl-postgresql' ></i>
+                <p>PostgresSQL</p>
+              </div>
+            </div>
+          </div>
+          <div className='stack'>
+            <h3>Others</h3>
+            <div className="skills">
+              <div className="skill">
+                <i className='bx bxs-badge-check' ></i>
+                <p>Postman</p>
+              </div>
+              <div className="skill">
+                <i className='bx bxl-git' ></i>
+                <p>Git</p>
+              </div>
+              <div className="skill">
+                <i className='bx bxs-badge-check' ></i>
+                <p>Ilustrator</p>
               </div>
             </div>
           </div>

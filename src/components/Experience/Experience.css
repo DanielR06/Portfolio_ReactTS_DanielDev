@@ -9,13 +9,30 @@
 }
 .container_skills{
     border: 0.7em solid var(--theme-ligth-dt);
+    background-color: var(--theme-ligth-bg);
+    padding: 1em;
+}
+.stack{
+    text-align: center;
+    margin: 1.5em 0;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 .skill{
+    padding: 0.5rem;
+    font-size: 1.5em;
+    background-color: var(--ligthblue);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--ligthblue);
-    width: auto;
+    gap: 1rem;
 }
 @media screen and (min-width:601px){
     .experience_title{
