@@ -5,7 +5,7 @@ const Experience = () => {
         <div className='experience_title padding'>
           <h2>Skills</h2>
         </div> 
-        <article className="container_skills">
+        <article className="container_skills padding">
           <div className='stack'>
             <h3><i className='bx bx-laptop'></i>  Frontend Development</h3>
             <div className="skills">

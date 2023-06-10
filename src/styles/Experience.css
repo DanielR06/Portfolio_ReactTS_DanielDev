@@ -1,5 +1,5 @@
 #experience{
-    margin: 0 2em;
+    margin: 0 2em 2em;
 }
 .experience_title{
     border: 0.7em solid var(--theme-ligth-dt);
@@ -10,7 +10,6 @@
 .container_skills{
     border: 0.7em solid var(--theme-ligth-dt);
     background-color: var(--theme-ligth-bg);
-    padding: 1em;
 }
 .stack{
     text-align: center;
