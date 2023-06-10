@@ -1,4 +1,4 @@
-import './Home.css'
+import '../styles/Home.css'
 const Home = () => {
   return (
     <header id='home' className='padding'>

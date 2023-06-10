@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './Navbar.css'
+import '../styles/Navbar.css'
 
 interface NavbarProps {
   toggleTheme: () => void;
