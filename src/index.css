@@ -5,6 +5,8 @@
 :root {
     --theme-ligth-bg:#000;
     --theme-ligth-dt:#fff;
+    --theme-icon:#7e46ff;
+    --sun-icon:#f7de00;
     --ligthblue: #19A7CE;
     --ligthbluesoft: rgba(40, 81, 243, 0.188);
     --bg-variante:rgb(3, 22, 82);

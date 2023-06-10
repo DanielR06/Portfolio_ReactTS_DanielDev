@@ -20,9 +20,11 @@ function App() {
     if (theme === 'dark') {
       root.style.setProperty('--theme-ligth-bg', '#000');
       root.style.setProperty('--theme-ligth-dt', '#fff');
+      root.style.setProperty('--theme-icon', '#f7de00');
     } else if (theme === 'light') {
       root.style.setProperty('--theme-ligth-bg', '#fff');
       root.style.setProperty('--theme-ligth-dt', '#000');
+      root.style.setProperty('--theme-icon', '#7e46ff');
     }
   }, [theme]);
   return (

@@ -31,7 +31,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleTheme }) => {
               <li><a href="#projects">PROJECTS</a></li>
               <li><a href="#testimonials">TESTIMONIALS</a></li>
               <li><a href="#contact">CONTACT</a></li>
-              <button onClick={handleClick}>
+              <button onClick={handleClick} className='button_mode'>
                 {icon ? <i className='bx bxs-sun'></i> : <i className='bx bxs-moon'></i>}
               </button>
           </ul>

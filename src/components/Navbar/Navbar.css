@@ -5,6 +5,21 @@
     right: 0px;
     top: 0px;
 }
+.button_mode {
+  transition: color 0.3s ease;
+}
+
+.button_mode i {
+  transition: transform 0.3s ease;
+}
+
+.button_mode:hover {
+  color: var(--theme-icon);
+}
+
+.button_mode:hover i {
+  transform: rotate(90deg);
+}
 @media screen and (max-width:991px){
     .nav_bar{
         display: flex;
