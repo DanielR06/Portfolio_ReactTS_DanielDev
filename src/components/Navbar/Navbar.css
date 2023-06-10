@@ -54,7 +54,7 @@
         display: flex;
         justify-content: space-between;
     }
-    .burger_button{
+    .button_menu{
         display: none;
     }
     .menu{
@@ -64,7 +64,7 @@
         display: flex;
         gap: 1em;
     }
-    .desactivateButton {
+    .desactivate_button {
         display: none;
     }
     .sections > li:hover{
