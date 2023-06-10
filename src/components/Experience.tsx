@@ -7,7 +7,7 @@ const Experience = () => {
         </div> 
         <article className="container_skills">
           <div className='stack'>
-            <h3>Frontend Development</h3>
+            <h3><i className='bx bx-laptop'></i>  Frontend Development</h3>
             <div className="skills">
               <div className="skill">
                 <i className='bx bxl-html5' ></i>
@@ -32,7 +32,7 @@ const Experience = () => {
             </div>
           </div>
           <div className='stack'>
-            <h3>Backend Development</h3>
+            <h3><i className='bx bxs-server' ></i>  Backend Development</h3>
             <div className="skills">
               <div className="skill">
                 <i className='bx bxl-nodejs' ></i>
@@ -53,7 +53,7 @@ const Experience = () => {
             </div>
           </div>
           <div className='stack'>
-            <h3>Others</h3>
+            <h3><i className='bx bx-code'></i>  Others</h3>
             <div className="skills">
               <div className="skill">
                 <i className='bx bxs-badge-check' ></i>
@@ -64,8 +64,8 @@ const Experience = () => {
                 <p>Git</p>
               </div>
               <div className="skill">
-                <i className='bx bxs-badge-check' ></i>
-                <p>Ilustrator</p>
+                <i className='bx bxl-markdown'></i>
+                <p>Markdown</p>
               </div>
             </div>
           </div>
