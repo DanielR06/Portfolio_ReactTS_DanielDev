@@ -26,10 +26,8 @@ const Navbar: React.FC<NavbarProps> = ({ toggleTheme }) => {
         <div className={menu ? 'menu_visible' : 'menu'}>
           <button className='desactivate_button' onClick={toogleMenu}><i className='bx bx-x'></i></button>
           <ul className='sections'>
-              <li><a href="#home">HOME</a></li>
               <li><a href="#experience">EXPERIENCE</a></li>
               <li><a href="#projects">PROJECTS</a></li>
-              <li><a href="#testimonials">TESTIMONIALS</a></li>
               <li><a href="#contact">CONTACT</a></li>
               <button onClick={handleClick} className='button_mode'>
                 {icon ? <i className='bx bxs-sun'></i> : <i className='bx bxs-moon'></i>}

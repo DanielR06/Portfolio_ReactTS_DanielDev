@@ -70,9 +70,6 @@ const Experience = () => {
             </div>
           </div>
         </article>
-          
-          
-          
       </section>
   )
 }
