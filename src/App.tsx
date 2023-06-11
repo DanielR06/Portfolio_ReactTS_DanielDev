@@ -4,8 +4,8 @@ import Home from './components/Home';
 import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 // import Testimonials from './components/Testimonials';
-// import Contact from './components/Contact';
 // import Footer from './components/Footer';
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -34,9 +34,8 @@ function App() {
       <About />
       <Experience />
       <Projects />
-      {/* <Testimonials />
       <Contact />
-      <Footer />  */}
+      {/* <Testimonials />*/}
     </div>
   );
 }

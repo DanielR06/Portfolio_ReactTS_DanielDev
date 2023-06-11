@@ -1,29 +1,16 @@
+import '../styles/Contact.css'
 const Contact = () => {
   return (
-    <section id="contact">
-        <h5>Póngase en contacto</h5>
-        <h2>Contáctame</h2>
-        <article>
-          <div>
-            <i>Icono</i>
-            <h3>Email</h3>
-            <p>danielrodripal24@gmail.com</p>
-            <a href="danielrodripal24@gmail.com">Envia un mensaje</a>
-          </div>
-          <div>
-            <i>Icono</i>
-            <h3>Email</h3>
-            <p>danielrodripal24@gmail.com</p>
-            <a href="danielrodripal24@gmail.com">Envia un mensaje</a>
-          </div>
-          <div>
-            <i>Icono</i>
-            <h3>Email</h3>
-            <p>danielrodripal24@gmail.com</p>
-            <a href="danielrodripal24@gmail.com">Envia un mensaje</a>
-          </div>
-        </article>
-      </section>
+    <footer id="contact" className='padding'>
+      <h3>Contáctame</h3>
+      <div className='container_contacts'>
+        <a href="mailto:danielrodripal24@gmail.com" target="_blank"><i className='bx bxs-envelope'></i> Email</a>
+        <a href="https://twitter.com/4everduke24" target="_blank"><i className='bx bxl-twitter'></i> Twitter</a>
+        <a href="https://github.com/DanielR06/" target="_blank"><i className='bx bxl-github'></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/daniel-rodriguez17/" target="_blank"><i className='bx bxl-linkedin-square'></i> LinkedIn</a>
+        <a href="" download='CV-Daniel-Rodriguez'><i className='bx bxs-spreadsheet' ></i> Descargar CV</a>
+      </div>
+    </footer>
   )
 }
 
