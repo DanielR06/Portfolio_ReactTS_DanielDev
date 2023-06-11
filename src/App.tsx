@@ -5,8 +5,6 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-// import Testimonials from './components/Testimonials';
-// import Footer from './components/Footer';
 function App() {
   const [theme, setTheme] = useState('dark');
 
@@ -35,7 +33,6 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
-      {/* <Testimonials />*/}
     </div>
   );
 }
