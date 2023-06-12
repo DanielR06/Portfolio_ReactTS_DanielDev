@@ -13,8 +13,8 @@ const Projects = () => {
               <i className='bx bxl-react' ></i>
             </div>
             <div className="container_links">
-              <a href="https://github.com/DanielR06/Pharses-Space---React">Github</a>
-              <a href="https://pharses-space-react.netlify.app">Live Demo</a>
+              <a href="https://github.com/DanielR06/Pharses-Space---React" target='_blank'>Github</a>
+              <a href="https://pharses-space-react.netlify.app" target='_blank'>Live Demo</a>
             </div>
           </div>
           <div className="project padding">
@@ -25,8 +25,8 @@ const Projects = () => {
               <i className='bx bxl-tailwind-css'></i>
             </div>
             <div className="container_links">
-              <a href="https://github.com/DanielR06/Weather-App-React">Github</a>
-              <a href="https://weatherapp-daniel.netlify.app">Live Demo</a>
+              <a href="https://github.com/DanielR06/Weather-App-React" target='_blank'>Github</a>
+              <a href="https://weatherapp-daniel.netlify.app" target='_blank'>Live Demo</a>
             </div>
           </div>
           <div className="project padding">
@@ -37,8 +37,8 @@ const Projects = () => {
               <i className='bx bxl-tailwind-css'></i>
             </div>
             <div className="container_links">
-              <a href="https://github.com/DanielR06/Locations-Rick-and-Morty">Github</a>
-              <a href="https://rick-and-morty-daniel.netlify.app">Live Demo</a>
+              <a href="https://github.com/DanielR06/Locations-Rick-and-Morty" target='_blank'>Github</a>
+              <a href="https://rick-and-morty-daniel.netlify.app" target='_blank'>Live Demo</a>
             </div>
           </div>
           <div className="project padding">
@@ -49,8 +49,8 @@ const Projects = () => {
               <i className='bx bxl-tailwind-css'></i>
             </div>
             <div className="container_links">
-              <a href="https://github.com/DanielR06/pokedex-daniel.dev">Github</a>
-              <a href="https://pokeapi-daniel-dev.netlify.app">Live Demo</a>
+              <a href="https://github.com/DanielR06/pokedex-daniel.dev" target='_blank'>Github</a>
+              <a href="https://pokeapi-daniel-dev.netlify.app" target='_blank'>Live Demo</a>
             </div>
           </div>
           <div className="project padding">
@@ -61,8 +61,8 @@ const Projects = () => {
               <i className='bx bxl-tailwind-css'></i>
             </div>
             <div className="container_links">
-              <a href="https://github.com/DanielR06/admin-users-crud">Github</a>
-              <a href="https://crud-users-daniel-dev.netlify.app">Live Demo</a>
+              <a href="https://github.com/DanielR06/admin-users-crud" target='_blank'>Github</a>
+              <a href="https://crud-users-daniel-dev.netlify.app" target='_blank'>Live Demo</a>
             </div>
           </div>
         </article>
