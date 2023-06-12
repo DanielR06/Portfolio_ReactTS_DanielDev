@@ -50,7 +50,19 @@ const Projects = () => {
             </div>
             <div className="container_links">
               <a href="https://github.com/DanielR06/pokedex-daniel.dev">Github</a>
-              <a href="https://pokeapi-daniel-dev.netlify.app/pokedex">Live Demo</a>
+              <a href="https://pokeapi-daniel-dev.netlify.app">Live Demo</a>
+            </div>
+          </div>
+          <div className="project padding">
+            <img src="https://raw.githubusercontent.com/DanielR06/images/main/usersCrud.png" alt=""/>
+            <h3>Users Crud</h3>
+            <div  className="container_icons">
+              <i className='bx bxl-react' ></i>
+              <i className='bx bxl-tailwind-css'></i>
+            </div>
+            <div className="container_links">
+              <a href="https://github.com/DanielR06/admin-users-crud">Github</a>
+              <a href="https://crud-users-daniel-dev.netlify.app">Live Demo</a>
             </div>
           </div>
         </article>
